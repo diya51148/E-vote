@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Candidates",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ElectionID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Created_time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Elections",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ElectionStartDate",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
